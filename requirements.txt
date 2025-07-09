@@ -1,2 +1,4 @@
-import joblib
-import numpy
+streamlit
+pandas
+scikit-learn
+joblib
