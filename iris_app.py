@@ -19,7 +19,7 @@ else:
     scaler = None
 
 # Title
-st.title("🌸 Iris Flower Species Prediction 🌸")
+st.title("🌸Iris Flower Species Prediction 🌸")
 
 # Description
 st.markdown("""
