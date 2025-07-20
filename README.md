@@ -8,24 +8,29 @@ The goal was to train a model that can distinguish between three iris species—
 -Language: Python
 
 **Libraries:**
+
   -pandas for data handling
+  
   -matplotlib & seaborn for quick visualizations
+  
   -scikit-learn for model building and evaluation
+  
   -pickle for saving the trained model
+  
   -Streamlit for deployment
 
 **Key Steps**
-Data Exploration:
 
-Checked class distribution and feature relationships using histograms and scatter plots.
+_Data Exploration:_
 
-No missing values, so no data cleaning was needed.
+  Checked class distribution and feature relationships using histograms and scatter plots.
+  
+  No missing values, so no data cleaning was needed.
 
-Preprocessing:
-
-Feature scaling was done using StandardScaler.
-
-Model Training:
+_Preprocessing:_
+  Feature scaling was done using StandardScaler.
+  
+_Model Training:_
 
 Tried out several models, but Logistic Regression hit the best balance between performance and interpretability.
 
@@ -41,11 +46,11 @@ Tuned hyperparameters using GridSearchCV.
 
   Deployed the model using Streamlit Cloud.
 
-On Streamlit:
+_On Streamlit:_
 You can test the deployed version here (https://iris-classification-vbbjjcgwne2spwumt8bqqs.streamlit.app/).
 
 
-What I Learned
+_What I Learned_
 How to apply basic ML workflow from data loading to deployment
 
 Importance of scaling and proper train-test splits
